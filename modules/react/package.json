@@ -2,6 +2,7 @@
   "name": "hello-world-contract-test",
   "version": "1.0.0",
   "description": "A Hello World project for contract testing using React, TypeScript, and Pact.",
+  "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",

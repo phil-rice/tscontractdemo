@@ -8,7 +8,7 @@ export const defaultHelloWorldFn: HelloWorldFn = async (apiUrl: string) => {
     return data.message;
 }
 
-const HelloWorldContext = React.createContext(defaultHelloWorldFn);
+export const HelloWorldContext = React.createContext(defaultHelloWorldFn);
 
 export function useHelloWorld(): HelloWorldFn {
     return React.useContext(HelloWorldContext);
