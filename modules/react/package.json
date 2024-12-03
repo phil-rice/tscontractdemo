@@ -1,0 +1,30 @@
+{
+  "name": "hello-world-contract-test",
+  "version": "1.0.0",
+  "description": "A Hello World project for contract testing using React, TypeScript, and Pact.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "jest",
+    "test:consumer": "jest src/tests/consumer",
+    "test:provider": "jest src/tests/provider"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^13.2.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}

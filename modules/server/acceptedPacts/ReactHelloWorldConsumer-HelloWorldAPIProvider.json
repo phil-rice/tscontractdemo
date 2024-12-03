@@ -1,0 +1,39 @@
+{
+  "consumer": {
+    "name": "ReactHelloWorldConsumer"
+  },
+  "interactions": [
+    {
+      "description": "a GET request to /hello",
+      "providerState": "a Hello World message exists",
+      "request": {
+        "method": "GET",
+        "path": "/hello"
+      },
+      "response": {
+        "body": {
+          "message": "Hello, World!"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "13.2.0"
+    },
+    "pactRust": {
+      "ffi": "0.4.22",
+      "models": "1.2.3"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "HelloWorldAPIProvider"
+  }
+}
