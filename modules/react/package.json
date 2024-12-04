@@ -2,7 +2,6 @@
   "name": "hello-world-contract-test",
   "version": "1.0.0",
   "description": "A Hello World project for contract testing using React, TypeScript, and Pact.",
-  "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
@@ -33,5 +32,11 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.0.0",
     "typescript": "^5.0.0"
+  },
+  "license": "MIT",
+  "author": "Phil Rice",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:phil-rice/tscontractdemo.git"
   }
 }
